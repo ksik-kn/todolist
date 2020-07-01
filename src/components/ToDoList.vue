@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>To Do List</div>
+    <h1>To Do List</h1>
     <table>
       <tr v-for="item in items" :key="item.name">
         <th>{{ item.taskname }}</th>
