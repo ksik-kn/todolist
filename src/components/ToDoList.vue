@@ -2,6 +2,11 @@
   <div>
     <h1>To Do List</h1>
     <table>
+      <tr>
+        <th>タスク名</th>
+        <th>締め切り</th>
+        <th>完了状態</th>
+      </tr>
       <tr v-for="item in items" :key="item.name">
         <th>{{ item.taskname }}</th>
         <th>{{ item.deadline }}</th>
